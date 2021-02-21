@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: cadetblue;
+    padding: 2rem;
+    border-radius: 5px;
+    
+}
+
+.container .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container .content h2 {
+    margin:   0;
+    font-size: 1.8em;
+    
+}
+
+.container .content input {
+    width: 350px;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.container .content .adicionar {
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+.container .content .list li {
+    display: flex;
+    list-style: none;
+    margin: 0.5em 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 350px;
+    padding: 1em;
+}
+
+.container .content .list li .item {
+    width: 100%;
+}
+
+.container .content .list li .item span {
+    margin-left: auto;
+}
+
+.container .content .list li .item span:hover {
+    opacity: 0.5;
+}
