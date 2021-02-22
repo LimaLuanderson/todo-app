@@ -1,8 +1,8 @@
-var listElement = document.querySelector('#app ul');
-var inputElement = document.querySelector('#app input');
-var buttonElement = document.querySelector('#app button');
+var listElement = document.querySelector('.app ul');
+var inputElement = document.querySelector('.app input');
+var buttonElement = document.querySelector('.app button');
 
-var todos = ['java', 'ruby', 'kotlin'];
+var todos = ['java', 'ruby', 'kotlin', 'elixir'];
 
 function renderTodos() {
     listElement.innerHTML = '';
